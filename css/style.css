@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+.sidebar {
+  background-color: var(--sidebar-bg-color);
+  color: var(--white-color);
+  width: 100%;
+  max-width: 255px;
+}
+.main {
+  background-color: var(--green-color);
+  width: 100%;
+}
