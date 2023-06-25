@@ -1,37 +1,37 @@
 @font-face {
-  font-display: swap; 
-  font-family: 'Lato';
+  font-display: swap;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); 
+  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2");
 }
 @font-face {
-  font-display: swap; /
-  font-family: 'Lato';
+  font-display: swap;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); 
+  src: url("../fonts/lato-v24-latin-700.woff2") format("woff2");
 }
 @font-face {
-  font-display: swap; 
-  font-family: 'Mulish';
+  font-display: swap;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/mulish-v12-latin-regular.woff2") format("woff2");
 }
 @font-face {
-  font-display: swap; /
-  font-family: 'Mulish';
+  font-display: swap;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/mulish-v12-latin-600.woff2') format('woff2'); 
+  src: url("../fonts/mulish-v12-latin-600.woff2") format("woff2");
 }
 @font-face {
-  font-display: swap; 
-  font-family: 'Mulish';
+  font-display: swap;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/mulish-v12-latin-700.woff2') format('woff2'); 
+  src: url("../fonts/mulish-v12-latin-700.woff2") format("woff2");
 }
 :root {
   /* COLOR */
@@ -46,11 +46,12 @@
   --text-light-color: #a4a6b3;
   --text-black-color: #000000;
   --card-hover-bg-color: #3751ff;
-  --dashbord-menu-hover-color: #9fa2b4;
+  --dashbord-menu-hover-color: rgba(159, 162, 180, 8%);
   --red-color: #f12b2c;
   --pale-green-color: #29cc97;
   --yellow-color: #fec400;
   --main-text-color: #252733;
+  --dashboard-nav-border-bottom: #dfe0eb;
   /* FONTS */
   --main-font: "Lato", sans-serif;
   --dashbord-menu-link-font: "Mulish", sans-serif;
@@ -101,9 +102,7 @@ h6 {
 }
 .container {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }

@@ -17,52 +17,257 @@
   <body>
     <div class="wrapper container">
       <div class="sidebar">
+        <a class="site-logo" href="./index.html">
+          <img
+            class="site-logo__image"
+            src="./images/dashboard-logo.svg"
+            alt="Dashboard website logo"
+            width="158"
+            height="39"
+          />
+        </a>
         <nav class="sitenav">
           <ul class="sitenav__list">
-            <li class="sitenav__item">
-              <a href="" class="sitenav__link">
-                <img src="" alt="" class="sitenav__link--icon" />
-                <span class="sitenav__link--text"></span>
-              </a>
-            </li>
-            <li class="sitenav__item">
+            <li class="sitenav__item active">
               <a href="" class="sitenav__link">
                 <img
-                  src="./images/dashboard-logo.svg"
-                  alt=""
                   class="sitenav__link--icon"
+                  src="./images/overview-icon.svg"
+                  alt=""
                 />
                 <span class="sitenav__link--text">Overview</span>
               </a>
             </li>
             <li class="sitenav__item">
               <a href="" class="sitenav__link">
-                <img src="" alt="" class="sitenav__link--icon" />
-                <span class="sitenav__link--text"></span>
+                <img
+                  class="sitenav__link--icon"
+                  src="./images/tickets-icon.svg"
+                  alt=""
+                />
+                <span class="sitenav__link--text">Tickets</span>
               </a>
             </li>
             <li class="sitenav__item">
               <a href="" class="sitenav__link">
-                <img src="" alt="" class="sitenav__link--icon" />
-                <span class="sitenav__link--text"></span>
+                <img
+                  class="sitenav__link--icon"
+                  src="./images/ideas-icon.svg"
+                  alt=""
+                />
+                <span class="sitenav__link--text">Ideas</span>
               </a>
             </li>
             <li class="sitenav__item">
               <a href="" class="sitenav__link">
-                <img src="" alt="" class="sitenav__link--icon" />
-                <span class="sitenav__link--text"></span>
+                <img
+                  class="sitenav__link--icon"
+                  src="./images/contacts-icon.svg"
+                  alt=""
+                />
+                <span class="sitenav__link--text">Contacts</span>
               </a>
             </li>
             <li class="sitenav__item">
               <a href="" class="sitenav__link">
-                <img src="" alt="" class="sitenav__link--icon" />
-                <span class="sitenav__link--text"></span>
+                <img
+                  class="sitenav__link--icon"
+                  src="./images/agents-icon.svg"
+                  alt=""
+                />
+                <span class="sitenav__link--text">Agents</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="" class="sitenav__link">
+                <img
+                  class="sitenav__link--icon"
+                  src="./images/articles-icon.svg"
+                  alt=""
+                />
+                <span class="sitenav__link--text">Articles</span>
               </a>
             </li>
           </ul>
         </nav>
+        <div class="sidebar__mode">
+          <ul class="sidebar__mode--list">
+            <li class="sidebar__mode--item">
+              <a class="sidebar__mode--link" href="">
+                <img
+                  class="sidebar__mode--icon"
+                  src="./images/change-mode-icon.svg"
+                  alt=""
+                />
+                <span class="sidebar__mode--link-text">Change mode</span>
+              </a>
+            </li>
+            <li class="sidebar__mode--item">
+              <a class="sidebar__mode--link" href="">
+                <img
+                  class="sidebar__mode--icon"
+                  src="./images/logout-icon.svg"
+                  alt=""
+                />
+                <span class="sidebar__mode--link-text">Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="main">Main part</div>
+      <div class="main">
+        <div class="site__dashboard-list">
+          <a href="" class="dashboard-list__icon-link"
+            ><img src="./images/vector.svg" alt="" class="dashboard-list__icon"
+          /></a>
+          <a href="" class="dashboard-list__image-link">
+            <p class="dashboard-name">Jones Ferdinand</p>
+            <img
+              src="./images/ferdinant.png"
+              alt="site dashboard foto"
+              class="dashboard-img"
+            />
+          </a>
+        </div>
+        <div class="site-overview-list">
+          <h1 class="site-overview-text">Overview</h1>
+          <div class="overview-btn__wrapper">
+            <img src="./images/dots.svg" alt="" class="three-dot-icon" />
+            <a href="" class="add-button">Add</a>
+          </div>
+        </div>
+        <div class="person-list__wrapper">
+          <ul class="person-list">
+            <li class="person-list__top">
+              <p class="person-list__top-text--owner">Owner</p>
+              <p class="person-list__top-text--date">End date</p>
+              <p class="person-list__top-text--profits">Profits</p>
+              <p class="person-list__top-text--losses">Losses</p>
+              <p class="person-list__top-text--phone">Phone</p>
+            </li>
+            <li class="person-list__item-bg">
+              <a href="" class="person-list--link">
+                <img src="./images/savannah.png" alt="" class="person-img" />
+                <p class="person-name">Savannah Nguyen</p>
+              </a>
+              <p class="end-data">1/15/12</p>
+              <p class="profits">$328.85</p>
+              <p class="losses">$779.58</p>
+              <a href="tel:(603) 555-0123" class="phone-number"
+                >(603) 555-0123</a
+              >
+            </li>
+            <li class="person-list__item">
+              <a href="" class="person-list--link">
+                <img src="./images/winson.png" alt="" class="person-img" />
+                <p class="person-name">Jenny Wilson</p>
+              </a>
+              <p class="end-data">8/30/14</p>
+              <p class="profits">$948.55</p>
+              <p class="losses">$589.99</p>
+              <a href="tel:(629) 555-0129" class="phone-number"
+                >(629) 555-0129</a
+              >
+            </li>
+            <li class="person-list__item-bg">
+              <a href="" class="person-list--link">
+                <img src="./images/anetta.png" alt="" class="person-img" />
+                <p class="person-name">Annette Black</p>
+              </a>
+              <p class="end-data">5/30/14</p>
+              <p class="profits">$778.35</p>
+              <p class="losses">$948.55</p>
+              <a href="tel:(308) 555-0121" class="phone-number"
+                >(308) 555-0121</a
+              >
+            </li>
+            <li class="person-list__item">
+              <a href="" class="person-list--link">
+                <img src="./images/kathryn.png" alt="" class="person-img" />
+                <p class="person-name">Kathryn Murphy</p>
+              </a>
+              <p class="end-data">11/7/16</p>
+              <p class="profits">$169.43</p>
+              <p class="losses">$202.87</p>
+              <a href="tel:(302) 555-0107" class="phone-number"
+                >(302) 555-0107</a
+              >
+            </li>
+            <li class="person-list__item-bg">
+              <a href="" class="person-list--link">
+                <img src="./images/cameron.png" alt="" class="person-img" />
+                <p class="person-name">Cameron Williamson</p>
+              </a>
+              <p class="end-data">7/27/13</p>
+              <p class="profits">$782.01</p>
+              <p class="losses">$710.68</p>
+              <a href="tel:(303) 555-0105" class="phone-number"
+                >(303) 555-0105</a
+              >
+            </li>
+            <li class="person-list__item">
+              <a href="" class="person-list--link">
+                <img src="./images/kristin.png" alt="" class="person-img" />
+                <p class="person-name">Kristin Watson</p>
+              </a>
+              <p class="end-data">5/19/12</p>
+              <p class="profits">$767.50</p>
+              <p class="losses">$779.58</p>
+              <a href="tel:(225) 555-0118" class="phone-number"
+                >(225) 555-0118</a
+              >
+            </li>
+            <li class="person-list__item-bg">
+              <a href="" class="person-list--link">
+                <img src="./images/elianor.png" alt="" class="person-img" />
+                <p class="person-name">Eleanor Pena</p>
+              </a>
+              <p class="end-data">8/21/15</p>
+              <p class="profits">$475.22</p>
+              <p class="losses">$219.78</p>
+              <a href="tel:(205) 555-0100" class="phone-number"
+                >(205) 555-0100</a
+              >
+            </li>
+            <li class="person-list__item">
+              <a href="" class="person-list--link">
+                <img src="./images/guy.png" alt="" class="person-img" />
+                <p class="person-name">Guy Hawkins</p>
+              </a>
+              <p class="end-data">5/27/15</p>
+              <p class="profits">$576.28</p>
+              <p class="losses">$446.61</p>
+              <a href="tel:(207) 555-0119" class="phone-number"
+                >(207) 555-0119</a
+              >
+            </li>
+            <li class="person-list__item-bg">
+              <a href="" class="person-list--link">
+                <img src="./images/broclyn.png" alt="" class="person-img" />
+                <p class="person-name">Brooklyn Simmons</p>
+              </a>
+              <p class="end-data">3/4/16</p>
+              <p class="profits">$219.78</p>
+              <p class="losses">$928.41</p>
+              <a href="tel:(201) 555-0124" class="phone-number"
+                >(201) 555-0124</a
+              >
+            </li>
+            <li class="person-list__item">
+              <a href="" class="person-list--link">
+                <img src="./images/robert.png" alt="" class="person-img" />
+                <p class="person-name">Robert Fox</p>
+              </a>
+              <p class="end-data">4/4/18</p>
+              <p class="profits">$202.87</p>
+              <p class="losses">$275.43</p>
+              <a href="tel:(684) 555-0102" class="phone-number"
+                >(684) 555-0102</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
